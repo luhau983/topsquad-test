@@ -1,0 +1,212 @@
+#a-text {
+  &.base-h-1 {
+    font-size: 64px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.base-h-2 {
+    font-size: 48px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.base-h-3 {
+    font-size: 40px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.base-h-4 {
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.base-h-5 {
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.title-1-semibold {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.title-1-medium {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.title-1-mobile {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.base-1-semibold {
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.base-1-bold {
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.base-2 {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.body-1-semibold {
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.body-1-medium {
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.body-2-semibold {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.caption-1 {
+    font-size: 13px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.caption-1-medium {
+    font-size: 13px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.caption-2-bold {
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.caption-2-medium {
+    font-size: 12px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.button-1 {
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.button-2 {
+    font-size: 13px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    text-transform: none;
+  }
+  &.title-2 {
+    font-size: 18px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-transform: none;
+  }
+}
