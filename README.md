@@ -8,7 +8,7 @@
 ## Setup environment
 - **Install MySql**
 ```sh
-docker run --name mysql57 -p 6603:3306 -e MYSQL_ROOT_PASSWORD=secret -d mysql:5.7
+docker run --name mysql57 -p 6603:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql:5.7
 ```
 - **Running application**
 ```sh
