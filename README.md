@@ -90,43 +90,7 @@ curl --location 'http://localhost:8080/api/v1/auth/signin' \
     "errorCode": null
 }
 ```
-- #### Query job-runs elasticsearch by condition
-```sh
-curl --location 'http://localhost:8080/job/es/query' \
---header 'Content-Type: application/json' \
---data '{
-    "id": "13",
-    "runId": "rlbz50cl2ilp381x",
-    "tableName": "person",
-    "status": "pending",
-    "businessDate": "2023-10-11",
-    "limit": 15,
-    "offset": 0
-}'
-```
-Example response
-```sh
-{
-    "message": "Successfully!!!",
-    "data": [
-        {
-            "id": "13",
-            "indexDate": 1696962061346,
-            "runId": "rlbz50cl2ilp381x",
-            "tableName": "person",
-            "status": "pending",
-            "businessDate": "2023-10-11",
-            "startTime": "2023-10-11T00:00:00",
-            "endTime": "2023-10-11T00:00:01",
-            "rowCount": 100,
-            "expectedRowCount": 100
-        }
-    ],
-    "code": "SUCCESS",
-    "total": 2
-}
-```
-- #### Get user bu id
+- #### Get user by id
 ```sh
 curl --location 'http://localhost:8080/api/v1/user/6' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTQzNDI1NSwiZXhwIjoxNjk5NTIwNjU1fQ.MUMAuAETce9X9TWuTo7tVNVODqBoWnzDkRGxVYZ3kIo'
