@@ -15,6 +15,14 @@ docker run --name mysql-local -p 6603:3306 -e MYSQL_ROOT_PASSWORD=admin -d mysql
 mvn clean install
 mvn spring-boot:run
 ```
+Sau khi run project sẽ tạo bảng, insert thêm 3 record vào table roles 
+```sh
+INSERT INTO roles(name) VALUES('ROLE_USER');
+INSERT INTO roles(name) VALUES('ROLE_MODERATOR');
+INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+```
+
+
 ## API CURL
 #### Authentication & Authorization
 - #### Sign up 
